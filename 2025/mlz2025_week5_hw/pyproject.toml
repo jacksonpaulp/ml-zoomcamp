@@ -1,0 +1,16 @@
+[project]
+name = "mlz2025-week5-hw"
+version = "0.1.0"
+description = "Lead Scoring Project - ML Zoomcamp Homework"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.121.0",
+    "scikit-learn==1.6.1",
+    "uvicorn>=0.38.0",
+]
+
+[dependency-groups]
+dev = [
+    "requests>=2.32.5",
+]
